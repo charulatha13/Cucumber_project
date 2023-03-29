@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="163.169057">
+<testcase classname="To validate the login functionality of application" name="To validate the login functionality with valid credentials" time="10.944667">
+<system-out><![CDATA[Given The user should be in login page......................................passed
+When The user has to click the signin link and then enter the "charulathavadivel02@gmail.com" "Charulatha13@" then click the signin button.passed
+Then the user should be in homepage.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of application" name="To validate the login functionality with valid credentials 2" time="11.329219">
+<system-out><![CDATA[Given The user should be in login page......................................passed
+When The user has to click the signin link and then enter the "charulatha@gmail.com" "Charulatha3@" then click the signin button.passed
+Then the user should be in homepage.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of application" name="To validate the login functionality with invalid credentials" time="11.952751">
+<system-out><![CDATA[Given The user should be in login page......................................passed
+When The user has to click the signin link and enter the "charugmail.com"then click signin button.passed
+Then the user should get a invalid message..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of application" name="To validate the login functionality with invalid credentials 2" time="11.911031">
+<system-out><![CDATA[Given The user should be in login page......................................passed
+When The user has to click the signin link and enter the "jayagmail.com"then click signin button.passed
+Then the user should get a invalid message..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the homepage elements functionality of application" name="To validate the homepage elements is present or not" time="11.583821">
+<system-out><![CDATA[Given The user should be in login page......................................passed
+When the user entered the homepage..........................................passed
+Then Hower on the "salvarkameez" and verify whether the drop down options are present or not.passed
+Then Hower on the "saree" and verify whether the drop down options are present or not.passed
+Then Hower on the "blouse" and verify whether the drop down options are present or not.passed
+Then Hower on the "lehanga" and verify whether the drop down options are present or not.passed
+Then Hower on the "indowestern" and verify whether the drop down options are present or not.passed
+Then Hower on the "kurtis" and verify whether the drop down options are present or not.passed
+Then Hower on the "bridal" and verify whether the drop down options are present or not.passed
+Then Hower on the "men" and verify whether the drop down options are present or not.passed
+Then Hower on the "accessories" and verify whether the drop down options are present or not.passed
+Then Hower on the "kids" and verify whether the drop down options are present or not.passed
+Then Hower on the "collection" and verify whether the drop down options are present or not.passed
+Then Hower on the "new" and verify whether the drop down options are present or not.passed
+Then Hower on the "sale" and verify whether the drop down options are present or not.passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the search contents in the application" name="To validate the search contents and print the product names and prices" time="70.113902">
+<system-out><![CDATA[Given The user should be in kalki fashion homepage..........................passed
+When the user search the product kurthi.....................................passed
+Then print all product names and price to verify whether it is accurate.....passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate till buynow button" name="To verify till the buynow button by providing all the neccessary details" time="35.333666">
+<system-out><![CDATA[Given The user should be in kalki fashion homepage..........................passed
+When the user search the product kurthi.....................................passed
+Then click the first product which is displayed.............................passed
+Then selecting all the details based on the product we are booking..........passed
+Then click the buy now button to book the product...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

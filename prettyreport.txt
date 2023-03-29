@@ -1,0 +1,121 @@
+Feature: To validate the login functionality of application
+
+  Scenario Outline: To validate the login functionality with valid and invalid credentials # src/test/resources/features/a_login.feature:2
+    Given The user should be in login page
+    When The user has to click the signin link and then enter the "<email>" "<password>" then click the signin button
+    Then the user should be in homepage
+
+    Examples: 
+
+  Scenario Outline: To validate the login functionality with valid and invalid credentials                                                     # src/test/resources/features/a_login.feature:8
+    Given The user should be in login page                                                                                                     # ALoginSteps.the_user_should_be_in_login_page()
+    When The user has to click the signin link and then enter the "charulathavadivel02@gmail.com" "Charulatha13@" then click the signin button # ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)
+    Then the user should be in homepage                                                                                                        # ALoginSteps.the_user_should_be_in_homepage()
+
+  Scenario Outline: To validate the login functionality with valid and invalid credentials                                      # src/test/resources/features/a_login.feature:9
+    Given The user should be in login page                                                                                      # ALoginSteps.the_user_should_be_in_login_page()
+    When The user has to click the signin link and then enter the "charugmail.com" "Charulatha113" then click the signin button # ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.65)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JM2I0RP6', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\SHIVAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98816458dc50fde7dec716023c887a25
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at org.baseclass.BaseClass.sendkeys(BaseClass.java:103)
+	at org.stepdefinition.ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(ALoginSteps.java:30)
+	at ✽.The user has to click the signin link and then enter the "charugmail.com" "Charulatha113" then click the signin button(file:src/test/resources/features/a_login.feature:4)
+
+    Then the user should be in homepage                                                                                         # ALoginSteps.the_user_should_be_in_homepage()
+
+  Scenario Outline: To validate the login functionality with valid and invalid credentials                                    # src/test/resources/features/a_login.feature:10
+    Given The user should be in login page                                                                                    # ALoginSteps.the_user_should_be_in_login_page()
+    When The user has to click the signin link and then enter the "anu@gmail.com" "anuashwiniK1" then click the signin button # ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)
+    Then the user should be in homepage                                                                                       # ALoginSteps.the_user_should_be_in_homepage()
+
+  Scenario Outline: To validate the login functionality with valid and invalid credentials                                   # src/test/resources/features/a_login.feature:11
+    Given The user should be in login page                                                                                   # ALoginSteps.the_user_should_be_in_login_page()
+    When The user has to click the signin link and then enter the "jayagmail.com" "Jayalaskcg8" then click the signin button # ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.65)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JM2I0RP6', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\SHIVAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42d1e34104131983d89b1c084cdd6997
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at org.baseclass.BaseClass.sendkeys(BaseClass.java:103)
+	at org.stepdefinition.ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(ALoginSteps.java:30)
+	at ✽.The user has to click the signin link and then enter the "jayagmail.com" "Jayalaskcg8" then click the signin button(file:src/test/resources/features/a_login.feature:4)
+
+    Then the user should be in homepage                                                                                      # ALoginSteps.the_user_should_be_in_homepage()
+
+Feature: To validate the homepage elements functionality of application
+
+  Scenario: To validate the homepage elements is present or not                                  # src/test/resources/features/b_homepageelements.feature:2
+    Given The user should be in login page                                                       # ALoginSteps.the_user_should_be_in_login_page()
+    When the user entered the homepage                                                           # HomePageElements.the_user_entered_the_homepage()
+    Then Hower on the "salvarkameez" and verify whether the drop down options are present or not # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "saree" and verify whether the drop down options are present or not        # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "blouse" and verify whether the drop down options are present or not       # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "lehanga" and verify whether the drop down options are present or not      # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "indowestern" and verify whether the drop down options are present or not  # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "kurtis" and verify whether the drop down options are present or not       # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "bridal" and verify whether the drop down options are present or not       # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "men" and verify whether the drop down options are present or not          # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "accessories" and verify whether the drop down options are present or not  # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "kids" and verify whether the drop down options are present or not         # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "collection" and verify whether the drop down options are present or not   # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "new" and verify whether the drop down options are present or not          # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+    Then Hower on the "sale" and verify whether the drop down options are present or not         # HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)
+
+Feature: To validate the search contents in the application
+
+  Scenario: To validate the search contents and print the product names and prices # src/test/resources/features/c_ProductSearch.feature:2
+    Given The user should be in kalki fashion homepage                             # SearchPageContentSteps.the_user_should_be_in_kalki_fashion_homepage()
+    When the user search the product kurthi                                        # SearchPageContentSteps.the_user_search_the_product_kurthi()
+    Then print all product names and price to verify whether it is accurate        # SearchPageContentSteps.print_all_product_names_and_price_to_verify_whether_it_is_accurate()
+
+Feature: To validate till buynow button
+
+  Scenario: To verify till the buynow button by providing all the neccessary details # src/test/resources/features/d_BuyNow.feature:2
+    Given The user should be in kalki fashion homepage                               # SearchPageContentSteps.the_user_should_be_in_kalki_fashion_homepage()
+    When the user search the product kurthi                                          # SearchPageContentSteps.the_user_search_the_product_kurthi()
+    Then click the first product which is displayed                                  # BuyNowSteps.click_the_first_product_which_is_displayed()
+    Then selecting all the details based on the product we are booking               # BuyNowSteps.selecting_all_the_details_based_on_the_product_we_are_booking()
+    Then click the buy now button to book the product                                # BuyNowSteps.click_the_buy_now_button_to_book_the_product()

@@ -1,0 +1,817 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-21T20:22:55.639Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9996790700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate the login functionality with valid and invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-valid-and-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 86700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1482500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1570886200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to click the signin link and then enter the \"charulathavadivel02@gmail.com\" \"Charulatha13@\" then click the signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"charulathavadivel02@gmail.com\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Charulatha13@\"",
+                  "offset": 89
+                }
+              ],
+              "location": "ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1352492400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user should be in homepage",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T20:23:08.600Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7205109500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To validate the login functionality with valid and invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-valid-and-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1357792700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 459100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d111.0.5563.65)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-JM2I0RP6\u0027, ip: \u0027192.168.1.3\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\SHIVAK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ce8c69d1dbe6f645718e31660b44060a\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.sendKeys(Unknown Source)\r\n\tat org.baseclass.BaseClass.sendkeys(BaseClass.java:103)\r\n\tat org.stepdefinition.ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(ALoginSteps.java:30)\r\n\tat ✽.The user has to click the signin link and then enter the \"charugmail.com\" \"Charulatha113\" then click the signin button(file:src/test/resources/features/a_login.feature:4)\r\n",
+              "duration": 21455947500,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "The user has to click the signin link and then enter the \"charugmail.com\" \"Charulatha113\" then click the signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"charugmail.com\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Charulatha113\"",
+                  "offset": 74
+                }
+              ],
+              "location": "ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 595000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user should be in homepage",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T20:23:38.636Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7053671900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "To validate the login functionality with valid and invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-valid-and-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 46700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 401700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1790111400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to click the signin link and then enter the \"anu@gmail.com\" \"anuashwiniK1\" then click the signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anu@gmail.com\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"anuashwiniK1\"",
+                  "offset": 73
+                }
+              ],
+              "location": "ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1360047600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user should be in homepage",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T20:23:48.845Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7187290500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To validate the login functionality with valid and invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-valid-and-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1282461600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 477100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d111.0.5563.65)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-JM2I0RP6\u0027, ip: \u0027192.168.1.3\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\SHIVAK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9121d162312dde6c0ac1d29e7c96c525\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.sendKeys(Unknown Source)\r\n\tat org.baseclass.BaseClass.sendkeys(BaseClass.java:103)\r\n\tat org.stepdefinition.ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(ALoginSteps.java:30)\r\n\tat ✽.The user has to click the signin link and then enter the \"jayagmail.com\" \"Jayalaskcg8\" then click the signin button(file:src/test/resources/features/a_login.feature:4)\r\n",
+              "duration": 21454950800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "The user has to click the signin link and then enter the \"jayagmail.com\" \"Jayalaskcg8\" then click the signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jayagmail.com\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Jayalaskcg8\"",
+                  "offset": 73
+                }
+              ],
+              "location": "ALoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 537600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user should be in homepage",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/a_login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-21T20:24:18.778Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7302198700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To validate the homepage elements is present or not",
+        "description": "",
+        "id": "to-validate-the-homepage-elements-functionality-of-application;to-validate-the-homepage-elements-is-present-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 1475616100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 362400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "ALoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303169500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user entered the homepage",
+            "match": {
+              "location": "HomePageElements.the_user_entered_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367649100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hower on the \"salvarkameez\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salvarkameez\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 692580300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hower on the \"saree\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saree\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 366941100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hower on the \"blouse\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"blouse\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 422456600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Hower on the \"lehanga\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lehanga\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 294253700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Hower on the \"indowestern\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"indowestern\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 535047500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Hower on the \"kurtis\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kurtis\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35566100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Hower on the \"bridal\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bridal\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 333986900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hower on the \"men\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"men\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 403811000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Hower on the \"accessories\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"accessories\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305922000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Hower on the \"kids\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kids\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279266000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Hower on the \"collection\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"collection\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 480494900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Hower on the \"new\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"new\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 371143000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Hower on the \"sale\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sale\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the homepage elements functionality of application",
+    "description": "",
+    "id": "to-validate-the-homepage-elements-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/b_homepageelements.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-21T20:24:32.762Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7184109900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To validate the search contents and print the product names and prices",
+        "description": "",
+        "id": "to-validate-the-search-contents-in-the-application;to-validate-the-search-contents-and-print-the-product-names-and-prices",
+        "after": [
+          {
+            "result": {
+              "duration": 1088626400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164080700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in kalki fashion homepage",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_should_be_in_kalki_fashion_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 680879600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user search the product kurthi",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_search_the_product_kurthi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64531277300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "print all product names and price to verify whether it is accurate",
+            "match": {
+              "location": "SearchPageContentSteps.print_all_product_names_and_price_to_verify_whether_it_is_accurate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the search contents in the application",
+    "description": "",
+    "id": "to-validate-the-search-contents-in-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/c_ProductSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-21T20:25:46.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6907503800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To verify till the buynow button by providing all the neccessary details",
+        "description": "",
+        "id": "to-validate-till-buynow-button;to-verify-till-the-buynow-button-by-providing-all-the-neccessary-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1376106200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79413900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in kalki fashion homepage",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_should_be_in_kalki_fashion_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 364742200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user search the product kurthi",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_search_the_product_kurthi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5215474700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click the first product which is displayed",
+            "match": {
+              "location": "BuyNowSteps.click_the_first_product_which_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26011105800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "selecting all the details based on the product we are booking",
+            "match": {
+              "location": "BuyNowSteps.selecting_all_the_details_based_on_the_product_we_are_booking()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6924160500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the buy now button to book the product",
+            "match": {
+              "location": "BuyNowSteps.click_the_buy_now_button_to_book_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate till buynow button",
+    "description": "",
+    "id": "to-validate-till-buynow-button",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/d_BuyNow.feature",
+    "tags": []
+  }
+]

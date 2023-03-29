@@ -1,0 +1,807 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-27T06:21:44.685Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8368966300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate the login functionality with valid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 97200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1636100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1270570500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to click the signin link and then enter the \"charulathavadivel02@gmail.com\" \"Charulatha13@\" then click the signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"charulathavadivel02@gmail.com\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Charulatha13@\"",
+                  "offset": 89
+                }
+              ],
+              "location": "LoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1271403200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user should be in homepage",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-27T06:21:55.631Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8831630300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To validate the login functionality with valid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 49800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 450100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1349912200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to click the signin link and then enter the \"charulatha@gmail.com\" \"Charulatha3@\" then click the signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"charulatha@gmail.com\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Charulatha3@\"",
+                  "offset": 80
+                }
+              ],
+              "location": "LoginSteps.the_user_has_to_click_the_signin_link_and_then_enter_the_then_click_the_signin_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1144147100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user should be in homepage",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-27T06:22:06.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6745780000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To validate the login functionality with invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 43800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 290700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3944979600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user has to click the signin link and enter the \"charugmail.com\"then click signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"charugmail.com\"",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginSteps.the_user_has_to_click_the_signin_link_and_enter_the_then_click_signin_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1251793600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should get a invalid message",
+            "match": {
+              "location": "LoginSteps.the_user_should_get_a_invalid_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-27T06:22:18.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6656870800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To validate the login functionality with invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-application;to-validate-the-login-functionality-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 48400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 314300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4061168100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user has to click the signin link and enter the \"jayagmail.com\"then click signin button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jayagmail.com\"",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginSteps.the_user_has_to_click_the_signin_link_and_enter_the_then_click_signin_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1190298200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should get a invalid message",
+            "match": {
+              "location": "LoginSteps.the_user_should_get_a_invalid_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/a_login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-27T06:22:30.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7307671500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To validate the homepage elements is present or not",
+        "description": "",
+        "id": "to-validate-the-homepage-elements-functionality-of-application;to-validate-the-homepage-elements-is-present-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 922469600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 323500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94913100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user entered the homepage",
+            "match": {
+              "location": "HomePageElements.the_user_entered_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 394777100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hower on the \"salvarkameez\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salvarkameez\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273775500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hower on the \"saree\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saree\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285391700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hower on the \"blouse\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"blouse\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257126100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Hower on the \"lehanga\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lehanga\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259885200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Hower on the \"indowestern\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"indowestern\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 263791100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Hower on the \"kurtis\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kurtis\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34898200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Hower on the \"bridal\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bridal\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249337300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hower on the \"men\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"men\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248681600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Hower on the \"accessories\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"accessories\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 223155000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Hower on the \"kids\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kids\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249647900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Hower on the \"collection\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"collection\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 253627300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Hower on the \"new\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"new\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256821700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Hower on the \"sale\" and verify whether the drop down options are present or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sale\"",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageElements.hower_on_the_and_verify_whether_the_drop_down_options_are_present_or_not(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the homepage elements functionality of application",
+    "description": "",
+    "id": "to-validate-the-homepage-elements-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/b_homepageelements.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-27T06:22:42.412Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6779299000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To validate the search contents and print the product names and prices",
+        "description": "",
+        "id": "to-validate-the-search-contents-in-the-application;to-validate-the-search-contents-and-print-the-product-names-and-prices",
+        "after": [
+          {
+            "result": {
+              "duration": 1289828900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93053000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in kalki fashion homepage",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_should_be_in_kalki_fashion_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 536588100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user search the product kurthi",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_search_the_product_kurthi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61411541400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "print all product names and price to verify whether it is accurate",
+            "match": {
+              "location": "SearchPageContentSteps.print_all_product_names_and_price_to_verify_whether_it_is_accurate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the search contents in the application",
+    "description": "",
+    "id": "to-validate-the-search-contents-in-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/c_ProductSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-27T06:23:52.527Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7948929700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To verify till the buynow button by providing all the neccessary details",
+        "description": "",
+        "id": "to-validate-till-buynow-button;to-verify-till-the-buynow-button-by-providing-all-the-neccessary-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1416627300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99205200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user should be in kalki fashion homepage",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_should_be_in_kalki_fashion_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160607200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user search the product kurthi",
+            "match": {
+              "location": "SearchPageContentSteps.the_user_search_the_product_kurthi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4527977600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click the first product which is displayed",
+            "match": {
+              "location": "BuyNowSteps.click_the_first_product_which_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9007038800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "selecting all the details based on the product we are booking",
+            "match": {
+              "location": "BuyNowSteps.selecting_all_the_details_based_on_the_product_we_are_booking()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12165729600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the buy now button to book the product",
+            "match": {
+              "location": "BuyNowSteps.click_the_buy_now_button_to_book_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate till buynow button",
+    "description": "",
+    "id": "to-validate-till-buynow-button",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/d_BuyNow.feature",
+    "tags": []
+  }
+]
